@@ -16,38 +16,6 @@
         android:text="@string/hello_world"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:text="@string/game_guess" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button2"
-        android:layout_centerHorizontal="true"
-        android:text="@string/game_remember" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button3"
-        android:layout_centerHorizontal="true"
-        android:text="@string/dictionary" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_below="@+id/button1"
-        android:text="@string/game_collect" />
-
     <ImageButton
         android:id="@+id/imageButton1"
         android:layout_width="wrap_content"
@@ -81,5 +49,37 @@
         android:layout_alignTop="@+id/textView2"
         android:layout_marginLeft="14dp"
         android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/button_game_guess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/game_guess" />
+
+    <Button
+        android:id="@+id/button_game_collect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_game_guess"
+        android:layout_alignTop="@+id/imageButton2"
+        android:text="@string/game_collect" />
+
+    <Button
+        android:id="@+id/button_dictionary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/dictionary" />
+
+    <Button
+        android:id="@+id/button_game_remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_dictionary"
+        android:layout_centerHorizontal="true"
+        android:text="@string/game_remember" />
 
 </RelativeLayout>
