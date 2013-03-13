@@ -4,5 +4,13 @@
     <string name="app_name">cards</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-
+    <string name="game_guess">Игра "Угадай"</string>
+    <string name="game_collect">Игра "Собери"</string>
+    <string name="game_remember">Игра "Вспомни"</string>
+    <string name="dictionary">Словарь</string>
+    <string name="title_activity_game_guess">GameGuessActivity</string>
+    <string name="title_game_guess">Угадай</string>
+    
+    
+    
 </resources>
