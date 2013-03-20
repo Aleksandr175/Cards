@@ -10,6 +10,7 @@
     <string name="dictionary">Словарь</string>
     <string name="title_activity_game_guess">GameGuessActivity</string>
     <string name="title_game_guess">Угадай</string>
+    <string name="result">Итоги</string>
     
     
     
