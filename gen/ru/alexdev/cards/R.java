@@ -32,10 +32,10 @@ public final class R {
         public static final int bar1=0x7f08000d;
         public static final int bar2=0x7f080015;
         public static final int button3=0x7f080005;
-        public static final int button_dictionary=0x7f080009;
+        public static final int button_dictionary=0x7f08000a;
         public static final int button_game_collect=0x7f080008;
         public static final int button_game_guess=0x7f080007;
-        public static final int button_game_remember=0x7f08000a;
+        public static final int button_game_remember=0x7f080009;
         public static final int exp=0x7f080013;
         public static final int expNext=0x7f080014;
         public static final int expTotal=0x7f080010;
