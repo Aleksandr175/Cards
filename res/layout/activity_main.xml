@@ -17,55 +17,54 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <ImageButton
-        android:id="@+id/imageMenu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/textView2"
-        android:layout_marginRight="35dp"
-        android:src="@drawable/menu_info" />
-
-    <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageMenu"
-        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
         android:src="@drawable/main_menu_button" />
 
     <Button
         android:id="@+id/button_game_guess"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageButton2"
-        android:layout_alignLeft="@+id/button_game_collect"
-        android:layout_alignRight="@+id/button_game_collect"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
         android:text="@string/game_guess" />
 
     <Button
-        android:id="@+id/button_game_collect"
+        android:id="@+id/Button01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button_game_remember"
-        android:layout_alignRight="@+id/button_game_remember"
-        android:layout_alignTop="@+id/imageButton2"
+        android:layout_alignLeft="@+id/button_game_guess"
+        android:layout_alignRight="@+id/button_game_guess"
+        android:layout_below="@+id/button_game_guess"
         android:text="@string/game_collect" />
 
     <Button
-        android:id="@+id/button_game_remember"
+        android:id="@+id/Button02"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/button_dictionary"
-        android:layout_centerHorizontal="true"
+        android:layout_alignLeft="@+id/Button01"
+        android:layout_below="@+id/Button01"
         android:text="@string/game_remember" />
 
     <Button
-        android:id="@+id/button_dictionary"
+        android:id="@+id/Button03"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button_game_remember"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/button_game_remember"
+        android:layout_alignLeft="@+id/Button02"
+        android:layout_alignRight="@+id/Button02"
+        android:layout_below="@+id/Button02"
         android:text="@string/dictionary" />
+
+    <ImageButton
+        android:id="@+id/button_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/menu_info" />
 
 </RelativeLayout>

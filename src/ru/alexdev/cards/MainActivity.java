@@ -11,7 +11,9 @@ import android.widget.ImageButton;
 public class MainActivity extends Activity {
 
 	private Button buttonGameGuess;
-	private ImageButton buttonResults;
+	private ImageButton buttonQuestion;
+    private ImageButton buttonResults;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,7 +21,11 @@ public class MainActivity extends Activity {
         
         buttonGameGuess = (Button) findViewById(R.id.button_game_guess);
         buttonResults = (ImageButton) findViewById(R.id.imageButton2);
-        listenerSelectGameGuess();
+        
+        buttonQuestion = (ImageButton) findViewById(R.id.button_question);
+        listenerSelectGameButtons();
+        
+        
     }
 
 
@@ -34,11 +40,11 @@ public class MainActivity extends Activity {
 
     
     /**
-     * Обработчик нажатия на кнопку "Угадай"
+     * Обработчик нажатий на кнопки
      * 
      * @return void
      */
-    private void listenerSelectGameGuess() 
+    private void listenerSelectGameButtons() 
     {
     	buttonGameGuess.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -54,5 +60,16 @@ public class MainActivity extends Activity {
         		startActivity(intent);
         	}
         }); 
+    	
+    	buttonQuestion.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				setContentView(R.layout.activity_help);
+			}
+		});
     }    
+    
+    
+    
 }

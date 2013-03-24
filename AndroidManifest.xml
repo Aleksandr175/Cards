@@ -28,8 +28,12 @@
             android:label="@string/title_activity_game_guess" >
         </activity>
         <activity
-            android:name="ResultsActivity"
-            android:screenOrientation="landscape"> 
+            android:name="ru.alexdev.cards.ResultsActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="ru.alexdev.cards.HelpActivity"
+            android:label="@string/title_activity_help" >
         </activity>
     </application>
 
