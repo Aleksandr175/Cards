@@ -27,7 +27,10 @@
             android:name="ru.alexdev.cards.GameGuessActivity"
             android:label="@string/title_activity_game_guess" >
         </activity>
-        <activity android:name="ResultsActivity"></activity>
+        <activity
+            android:name="ResultsActivity"
+            android:screenOrientation="landscape"> 
+        </activity>
     </application>
 
 </manifest>
