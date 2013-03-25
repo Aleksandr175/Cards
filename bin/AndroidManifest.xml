@@ -35,6 +35,10 @@
             android:name="ru.alexdev.cards.HelpActivity"
             android:label="@string/title_activity_help" >
         </activity>
+        <activity
+            android:name="ru.alexdev.cards.SelectThemeActivity"
+            android:label="@string/title_activity_select_theme" >
+        </activity>
     </application>
 
 </manifest>

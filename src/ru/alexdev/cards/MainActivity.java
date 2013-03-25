@@ -50,7 +50,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				setContentView(R.layout.activity_game_guess);
+				setContentView(R.layout.activity_select_theme);
 			}
 		});
     	

@@ -13,5 +13,9 @@
     <string name="result">Итоги</string>
     <string name="help">Помощь</string>
     <string name="title_activity_help">HelpActivity</string>
-
+    <string name="title_activity_select_theme">SelectThemeActivity</string>
+    <string name="select_theme">Выберите тему</string>
+    <string name="empty_themes">Тем нет</string>
+    
+    
 </resources>
