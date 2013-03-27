@@ -30,8 +30,7 @@ public class HelpActivity extends Activity {
     	
     	back.setOnClickListener(new View.OnClickListener() {
         	public void onClick(View v) {
-        		Intent intent = new Intent(HelpActivity.this,MainActivity.class);
-        		startActivity(intent);
+        		finish();
         	}
         }); 
     }

@@ -64,8 +64,8 @@ public class MainActivity extends Activity {
     	buttonQuestion.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				setContentView(R.layout.activity_help);
+				Intent intent = new Intent(MainActivity.this,HelpActivity.class);
+        		startActivity(intent);
 			}
 		});
     }    
