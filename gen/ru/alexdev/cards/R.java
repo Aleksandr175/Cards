@@ -43,9 +43,9 @@ public final class R {
         public static final int imageButton2=0x7f080005;
         public static final int imageGoToMenuFromHelp=0x7f080001;
         public static final int imageMenu=0x7f080003;
-        public static final int label=0x7f080016;
         public static final int level=0x7f080011;
         public static final int linearLayout2=0x7f08000d;
+        public static final int text1=0x7f080016;
         public static final int textView1=0x7f080002;
         public static final int textView2=0x7f080004;
         public static final int theme_list=0x7f080015;

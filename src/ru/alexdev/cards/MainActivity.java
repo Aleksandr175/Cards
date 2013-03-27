@@ -49,9 +49,9 @@ public class MainActivity extends Activity {
     	buttonGameGuess.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				setContentView(R.layout.activity_select_theme);
-			}
+        		Intent intent = new Intent(MainActivity.this,SelectThemeActivity.class);
+        		startActivity(intent);
+        	}
 		});
     	
     	buttonResults.setOnClickListener(new View.OnClickListener() {
